@@ -139,7 +139,7 @@ header .logo h1 {
 .hero {
     background: linear-gradient(to right, #030405, #3c4d52);
     color: #fff;
-    padding: 100px 0;
+    /* padding: 100px 0; */
     text-align: center;
     animation: fadeIn 2s ease-in;
 }
@@ -1595,4 +1595,100 @@ li {
   .benefit p {
     font-size: 14px;
   }
+}
+
+.py_icon {
+  z-index: 2;
+  position:absolute;
+  display: table; 
+  padding: 1px;
+  max-height: 1px;
+  width: 1px;
+  background-color: red;
+  /* font-size: 1rem; */
+  /* margin-bottom: 10px; */
+}
+
+
+.stats-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+.stat-card {
+  text-align: center;
+  margin: 20px;
+  /* margin-bottom: 33px; */
+  padding: 15px;
+  height: 100%;
+  width: calc(25% - 20px); /*  Adjust width based on number of cards*/
+  background:linear-gradient(135deg, #c1d6d6 0%, #83ffff 100%);
+  border-radius: 5px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.stat-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  /* cursor: pointer; */
+}
+
+.stat-card img {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 10px;
+}
+
+.stat-card p {
+  margin: 0;
+  padding: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .stats-wrapper {
+      width: 90%;
+  }
+  
+  .stat-card {
+      width: calc(50% - 20px);
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .stats-wrapper {
+      width: 100%;
+  }
+  
+  .stat-card {
+      width: 100%;
+  }
+}
+
+.content_font_head {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  /* color: white; */
+}
+
+
+/* // <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 900 */
+
+/* .noto-sans-mono-<uniquifier> {
+  font-family: "Noto Sans Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+  "wdth" 100;
+} */
+
+.content_font_desc {
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-weight: 600;  
+/* color: white; */
 }
