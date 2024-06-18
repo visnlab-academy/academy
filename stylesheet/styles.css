@@ -224,7 +224,8 @@ header .logo h1 {
 
 .courses .course {
     margin: 20px 0;
-    background-color: #1e1e1e;
+    background-color: #232335;
+    /* background: linear-gradient(to right, #7892aa, #1d1b1b); */
     padding: 20px;
     border-radius: 5px;
     transition: transform 0.3s ease;
@@ -515,7 +516,8 @@ header .logo h1 {
   }
   
   .about {
-    background-color: #1e1e1e;
+    /* background-color: #2b4d4b78; */
+    background: linear-gradient(200deg, #030303, #2094b8);
     padding: 1.5rem;
     border-radius: 8px;
     height: 100%;
