@@ -8,7 +8,7 @@ added python.html file
 
 home.html changes :
 commented raashid's carousel
-created cards below why choose VISN academy
+created cards below why choose ViSN Labs Academy
 added meet our instructors section
 added cards below Flexible learning
 
